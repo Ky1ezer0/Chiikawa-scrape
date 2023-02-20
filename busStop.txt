@@ -1,0 +1,38 @@
+K68-U010 22.460827 114.026513 (出)元朗工業邨 Yuen Long Industrial Estate
+K68-U020 22.462075 114.028979 凸版資訊卡 Toppan Forms Card Tech Ltd
+K68-U030 22.463753 114.027581 (出)雀巢 Nestle (HK) Ltd
+K68-U040 22.465525 114.026843 (出)元朗污水處理廠 Yuen Long SewageTreatment Works
+K68-U050 22.464754 114.024822 位元堂藥業大廈 Wai Yuen Tong MedicineBuilding
+K68-U060 22.462219 114.023448 東電化電子零件 TDK Manufacturing (HK)Co Ltd
+K68-U070 22.46039 114.022169 凸版印刷 Toppan Printing Co (HK)Ltd
+K68-U080 22.45845 114.023157 匯泉國際實業 Telford InternationalIndustries Ltd
+K68-U090 22.455119 114.024092 (出)橫洲福慶村 Wang Chau Fuk HingTsuen
+K68-U100 22.45078121 114.0229286 (出)朗屏 (巴士總站) Long Ping (BusTerminus)
+K68-U110 22.451379 114.025576 楊屋村 Yeung Uk Tsuen
+K68-U120 22.447648 114.023001 屏昌徑 (港鐵朗屏站) Ping Cheong Path (MTRLong Ping Station)
+K68-U130 22.446002 114.022607 元朗盲人安老院 Yuen Long Home for theAged Blind
+K68-U140 22.442588 114.022245 聿修堂 (輕鐵豐年路站) Lut Sau Hall (LR FungNin Road Stop)
+K68-U150 22.441306 114.02224 元朗劇院 Yuen Long Theatre
+K68-U160 22.43953 114.02226 銀田花園 Silver Field Garden
+K68-U170 22.438801 114.02024 南元朗官立小學South Yuen LongGovernment PrimarySchool
+K68-D010 22.44193 114.02007 元朗公園 Yuen Long Park
+K68-D020 22.442503 114.017663 御豪山莊 Park Royale
+K68-D030 22.440088 114.019048 藝典居 Villa Art Deco
+K68-D040 22.440407 114.021312 御庭居 Springdale Villas
+K68-D050 22.44149722 114.0221389 元朗游泳池 Yuen Long SwimmingPool
+K68-D060 22.443644 114.022164 元朗大會堂 Yuen Long Town Hall
+K68-D070 22.444676 114.023705 元朗廣場 (輕鐵豐年路站) Yuen Long Plaza (LRFung Nin Road Stop)
+K68-D080 22.446157 114.026583 元朗安寧路 Yuen Long On NingRoad
+K68-D090 22.447538 114.026826 大橋村 (港鐵朗屏站) Tai Kiu Tsuen (MTRLong Ping Station)
+K68-D100 22.449497 114.025532 惠州學校 Wai Chow School
+K68-D110 22.451434 114.025324 朗屏邨珠屏樓 Chu Ping House, LongPing Estate
+K68-D120 22.45078121 114.0229286 (入)朗屏 (巴士總站) Long Ping (BusTerminus)
+K68-D130 22.455166 114.02403 (入)橫洲福慶村 Wang Chau Fuk HingTsuen
+K68-D140 22.45789 114.023353 元朗紡織品 Yuen Long Textile Co Ltd
+K68-D150 22.460236 114.022242 大昌行食品加工及物流中心 DCH Food Processing & Logistics Centre
+K68-D160 22.462306 114.023412 有生鉛水(熱浸鋅) Yau Sang Galvanizers(Hot-Dip) Co Ltd
+K68-D170 22.464968 114.024783 余仁生中心 Eu Yan Sang Centre
+K68-D180 22.465479 114.026899 (入)元朗污水處理廠 Yuen Long SewageTreatment Works
+K68-D190 22.463782 114.027638 (入)雀巢 Nestle (HK) Ltd
+K68-D200 22.461655 114.029313 牛尾香港 Ushio HK Ltd
+K68-U011 22.460827 114.026513 (入)元朗工業邨 Yuen Long IndustrialEstate
