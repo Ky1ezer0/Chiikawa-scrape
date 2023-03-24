@@ -5,7 +5,7 @@ import requests
 import telebot
 import logging
 from telebot import types
-from haversine import haversine, Unit
+from haversine import haversine
 
 
 class BusStop:
