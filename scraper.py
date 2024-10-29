@@ -1,6 +1,7 @@
 import json
 import requests
 import time
+from datetime import datetime, timedelta
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 
@@ -33,7 +34,7 @@ def scrape_products():
         # Check for new products by comparing product IDs
         for product in data["products"]:
             if product["id"] not in saved_product_ids:
-                formatted_tags = " ".join(f"`{tag}`" for tag in product["tags"])
+                formatted_tags = " ".join(f"{tag}" for tag in product["tags"])
 
                 # Extract title, price, first image URL, and handle for alert
                 product_info = {
@@ -87,8 +88,13 @@ def scrape_products():
         print("No new products found.")
 
 
-# Run the scraping every 60 seconds
+# Run the scraping every hour, precisely on the hour
 while True:
     scrape_products()
-    print("Waiting for 60 seconds before the next scrape...")
-    time.sleep(60)
+
+    # Calculate the next hour
+    now = datetime.now()
+    next_hour = (now + timedelta(minutes=1)).replace(hour=0, second=1, microsecond=0)
+    wait_time = (next_hour - now).total_seconds()
+    print(f"Waiting until the next minutes ({wait_time}) before the next scrape...")
+    time.sleep(wait_time)
