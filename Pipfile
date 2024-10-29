@@ -5,11 +5,12 @@ name = "pypi"
 
 [packages]
 requests = "*"
-haversine = "*"
-pytelegrambotapi = "*"
+beautifulsoup4 = "*"
+free-proxy = "*"
+py-cord = "*"
+discord-webhook = "*"
 
 [dev-packages]
-black = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.11"
