@@ -94,7 +94,7 @@ while True:
 
     # Calculate the next hour
     now = datetime.now()
-    next_hour = (now + timedelta(minutes=1)).replace(hour=0, second=1, microsecond=0)
+    next_hour = (now + timedelta(minutes=1)).replace(second=0, microsecond=0)
     wait_time = (next_hour - now).total_seconds()
     print(f"Waiting until the next minutes ({wait_time}) before the next scrape...")
     time.sleep(wait_time)
