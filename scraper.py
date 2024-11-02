@@ -3,6 +3,7 @@ import requests
 import time
 from datetime import datetime, timedelta
 from discord_webhook import DiscordWebhook, DiscordEmbed
+from requests.exceptions import Timeout
 
 
 def scrape_products():
@@ -79,7 +80,13 @@ def scrape_products():
             embed.set_image(url=product["first_image"])
             webhook.add_embed(embed)
 
-            response = webhook.execute()
+            while True:
+                try:
+                    response = webhook.execute()
+                    break
+                except Timeout as err:
+                    print(f"Oops! Connection to Discord timed out: {err}")
+                time.sleep(2)
 
         # Update the saved products file with the updated full product list
         with open("products.json", "w", encoding="utf-8") as f:
@@ -96,5 +103,5 @@ while True:
     now = datetime.now()
     next_hour = (now + timedelta(minutes=1)).replace(second=0, microsecond=0)
     wait_time = (next_hour - now).total_seconds()
-    print(f"Waiting until the next minutes ({wait_time}) before the next scrape...")
+    print(f"Waiting until the next minutes ({wait_time} sec) before the next scrape...")
     time.sleep(wait_time)
